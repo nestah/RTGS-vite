@@ -1,15 +1,17 @@
 {
+  "homepage": "https://nestah.github.io/RTGS-vite/",
   "name": "react-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
- "homepage": "https://nestah.github.io/RTGS-vite/",
+
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
+    "build": "vite build",
+    "preview": "vite preview",
+    
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
